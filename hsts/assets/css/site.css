@@ -1,0 +1,723 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.site-layout{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    /**border: 2px solid black;**/
+    background-image: url(../img/BERNARD_51.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    color: aliceblue;
+}
+.rounder{
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    color: rgb(54, 36, 105);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.ourmission{
+    width: 12%;
+    height: 7%;
+    background-color: rgb(54, 36, 105);
+}
+.ourmission a{
+    text-decoration: none;
+    color: white;
+}
+.ourmissionstory{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.missionpicturewriting{
+    width: 75%;
+    height: 85%;
+}
+.missionpicture{
+    width: 35%;
+    height: 70%;
+    border: 3px solid black;
+    position: relative;
+    left: 5%;
+    background-image: url(../img/BERNARD_161.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.missionwriting{
+    width: 60%;
+    height: 85%;
+    background-color: rgb(206, 229, 248);
+}
+.mission-write-up{
+    width: 75%;
+    height: 100%;
+}
+.mission{
+    width: 100%;
+    height: 15%;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: rgb(187, 216, 241);
+}
+.story{
+    width: 100%;
+    height: 85%;
+    font-size: 20px;
+}
+.coursesearch{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(206, 229, 248);
+}
+.searchcourse{
+    width: 70%;
+    height: 60%;
+    color: rgb(54, 36, 105);
+}
+.searchourcourses{
+    width: 85%;
+    height: 30%;    
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.weoffer{
+    width: 100%;
+    height: 55%;
+    font-size: 20px;
+}
+.programmes{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prog{
+    width: 20%;
+    height: 50%;
+    border-radius: 2%;
+    background-color: rgb(54, 36, 105);
+    font-size: 20px;
+}
+.prog a{
+    color: rgb(206, 229, 248);
+    text-decoration: none;
+}
+.comment{
+    width: 100%;
+    height: 450px;
+}
+.commentholder{
+    width: 65%;
+    height: 55%;
+    position: relative;
+    background-color: rgb(206, 229, 248);
+}
+.thecomment{
+    width: 70%;
+    height: 100%;
+    color: rgb(54, 36, 105);
+}
+.commentwriteup{
+    height: 100%;
+    width: 95%;
+}
+.commentby{
+    width: 40%;
+    height: 140%;
+    position: relative;
+    right: 2%;
+    background-image: url(../img/BERNARD_1313.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.teachersprofile{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.title{
+    width: 95%;
+    height: 30%;
+}
+.bgtitle{
+    width: 100%;
+    height: 35%;
+    color: rgb(206, 229, 248);
+    font-size: 25px;
+    background-color: rgb(58, 81, 109);
+}
+.propics{
+    width: 80%;
+    height: 60%;
+}
+.pics{
+    width: 20%;
+    height: 80%;
+    border-radius: 50%;
+    position: relative;
+    left: 5%;
+    background-image: url(../img/BERNARD_419.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.profile{
+    width: 80%;
+    height: 100%;
+    box-shadow: 3px 3px rgb(97, 96, 96);
+    background-color: rgb(206, 229, 248);
+}
+.profilewriting{
+    width: 75%;
+    height: 100%;
+    color: rgb(54, 36, 105);
+}
+.registernow{
+    width: 100%;
+    height: 500px;
+}
+.registration{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(206, 229, 248);
+}
+.register{
+    width: 30%;
+    height: 100%;
+    color: rgb(54, 36, 105);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details{
+    width: 18%;
+    height: 130%;
+    background-color: rgb(206, 229, 248);
+    border: 3px solid rgb(58, 81, 109);
+}
+.myform{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.myinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 81, 109);
+    width: 80%;
+    height: 10%;
+    border: 0px ;
+    border-radius: 20px;
+    box-shadow: 2px 3px white;
+    color: rgb(206, 229, 248);
+}
+.hof{
+    width: 100%;
+    height: 440px;
+    background-color: rgb(58, 81, 109);
+}
+.hofholder{
+    width: 40%;
+    height: 90%;
+    background-image: url(../img/hof.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.latest{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.latestone{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(206, 229, 248);
+    color: rgb(54, 36, 105);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+.latestbox{
+    width: 85%;
+    height: 300px;
+    position: relative;
+}
+.mlate{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxone{
+    width: 35%;
+    height: 80%;
+    position: relative;
+    left: 2%;
+    top: 10%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;    
+    background-image: url(../img/Building_25.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boxtwo{
+    width: 35%;
+    height: 80%;
+    box-shadow: 3px 3px rgb(54, 36, 105);
+    position: relative;
+    top: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(206, 229, 248);
+}
+.one{
+    width: 85%;
+    height: 100%;
+  /*  border: 1px solid black;*/
+}
+.two{
+    
+    width: 85%;
+    height: 100%;
+  /*  border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-weight: bolder;
+    color: rgb(54, 36, 105);
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(58, 81, 109);
+    color: rgb(206, 229, 248);
+}
+.footerbox{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerlogo {
+    width: 45%;
+    height: 15%;
+    border: 1px solid black;
+}
+.footerwriting{
+    width: 90%;
+    height: 50%;
+}
+.footercontact{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.usefullinks{
+    width: 55%;
+    height: 15%;
+}
+.linkscontainer{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerlogin{
+    width: 90%;
+    height: 20%
+}
+.footerlogin a{
+    color: rgb(206, 229, 248);
+    text-decoration: none;  
+}
+
+
+@media only screen and (max-width:1405px){
+    .ourmission{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width:1329px){
+    .story{
+        font-size:20px;
+    }
+    .mission{
+        font-size:25px;
+    }
+    .missionwriting{
+        width: 85%;
+    }
+    .missionpicture{
+        width: 45%;
+    }
+}
+@media only screen and (max-width:1600px){
+    .missionpicture{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:1460px){
+    .missionpicture{
+        background-size: cover;
+        height: 65%;
+    }
+    .hof{
+        height:350px;
+    }
+    .hofholder{
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width:1333){
+    .missionpicture{
+        background-size: cover;
+        height: 65%;
+        width: 45%;
+    }
+}
+@media only screen and (max-width:1328px){
+    .missionpicture{
+        background-size: cover;
+        height: 60%;
+    }
+}
+@media only screen and (max-width:1320px){
+    .missionpicture{
+        background-size: contain;
+        height: 65%;
+    }
+}
+@media only screen and (max-width:1318px){
+    .missionpicture{
+        background-size: cover;
+        height: 60%;
+    }
+}
+@media only screen and (max-width:1316px){
+    .missionpicture{
+        background-size: cover;
+        height: 60%;
+    }
+}
+@media only screen and (max-width:1314px){
+    .missionpicture{
+        background-size: cover;
+        height: 55%;
+    }
+}
+@media only screen and (max-width:1150px){
+    .missionpicture{
+        height: 60%;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .container{
+        height: 650px;
+        background-size: cover;
+    }
+    .commentholder{
+        width: 80%;
+    }
+    .commentby{
+        width: 35%;
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width:990px){
+    .container{
+        background-size: contain;
+    }
+    .rounder{
+        font-size: 25px;
+    }
+    .commentwriteup{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width:970px){
+    .container{
+        height: 600px;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:945px){
+    .ourmission{
+        width: 15%;
+    }
+    .teachersprofile{
+        height:400px;
+        font-size: 15px;
+    }
+    .details{
+        width: 30%;
+    }
+    .register{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:800px){
+    .ourmission{
+        font-size:15px;
+    }
+    .rounder{
+        font-size:20px;
+    }
+    .container{
+        height:500px;
+        background-size: cover;
+    }
+    .missionpicture{
+        width: 0%;
+    }
+    .missionpicturewriting{
+        width: 100%;
+    }
+    .ourmissionstory{
+        height: 350px;
+    }
+    .propics{
+        width: 90%;
+        font-size: 12px;
+    }
+    .hofholder{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:700px){
+    .ourmission{
+        font-size:15px;
+        width: 20%;
+    }
+    .rounder{
+        font-size:20px;
+    }
+    .container{
+        height:400px;
+        background-size: cover;
+    }
+    .searchourcourses{
+        font-size:20px;
+        height:300px;
+    }
+    .weoffer{
+        font-size:15px;
+    }
+    .prog{
+        font-size:15px;
+    }
+    .comment{
+        height: 350px;
+    }
+    .commentwriteup{
+        font-size:12px;
+    }
+    .teachersprofile{
+        height: 350px;
+    }
+    .propics{
+        font-size: 11px;
+    }
+    .pics{
+        width: 30%;
+    }
+    .register{
+        font-size:15px;
+    }
+    .hofholder{
+        width: 55%;
+    }
+
+}@media only screen and (max-width:600px){
+    .register{
+        width: 45%;
+    }
+    .hofholder{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:550px){
+    .ourmission{
+        font-size:10px;
+    }
+    .rounder{
+        font-size:13px;
+    }
+    .container{
+        height:300px;
+        background-size: cover;
+    }
+    .searchourcourses{
+        font-size:15px
+    }
+    .weoffer{
+        font-size:15px;
+    }
+    .coursesearch{
+        height: 300px;
+    }
+    .prog{
+        font-size:12px;
+    }
+    .commentholder{
+        width: 90%;
+    }
+    .comment{
+        height: 300px;
+    }
+    .commentwriteup{
+        font-size:11px;
+    }
+    .bgtitle{
+        font-size:20px;
+    }
+    .registernow{
+        height: 400px;
+    }
+    .register{
+        font-size:12px;
+    }
+    .details{
+        width: 35%;
+    }
+}
+@media only screen and (max-width:430px){
+    .register{
+        font-size:8px;
+    }
+    .details{
+        width:40%;
+    }
+    .registernow{
+        height: 350px;
+    }
+    .hofholder{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:400px){
+    .commentwriteup{
+        font-size:12px;
+    }
+}
+@media only screen and (max-width:400px){
+    .weoffer{
+        font-size:12px;
+    }
+    .searchourcourses{
+        font-size:12px;
+    }
+    .comment{
+        height: 250px;
+    }
+    .commentwriteup{
+        font-size:10px;
+    }
+    .commentholder{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .story{
+        font-size:15px;
+    }
+    .mission{
+        font-size:18px;
+    }
+    .searchourcourses{
+        font-size:12px
+    }
+    .prog{
+        font-size:10px;
+    }
+    .commentwriteup{
+        font-size:9px;
+    }
+    .pics{
+        width: 40%;
+    }
+    .propics{
+        font-size:10px;
+    }
+    .bgtitle{
+        font-size:15px;
+    }
+    .hofholder{
+        width: 75%;
+    }
+}
